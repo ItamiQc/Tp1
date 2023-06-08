@@ -1,0 +1,90 @@
+body{
+    background-image: url(../images/bg4.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin: 0;
+}
+.liststyle{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+h1, h2, h3, h4{
+    font-size: 60px;
+    text-align: center;
+    color: black;
+}
+
+ul{
+    padding: 10px;
+    list-style-position: inside;
+    border: solid 3px black;
+    width: 1000px;
+    height: fit-content;
+    background-color: darkgreen;
+}
+
+li{
+    font-size: 30px;
+    border: solid 3px black;
+    background-color: mintcream;
+}
+
+.list{
+    margin-bottom: 50px;
+}
+
+.images img{
+    width: 400px;
+    height: 600px;
+   margin: 10px;
+    margin-left: 50px;
+}
+
+.textimage{
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    font-size: 30px;
+    margin-bottom: 100px;
+}
+
+.bluelock{
+    margin-left: 40%;
+}
+
+.tokyo{
+    margin-left: 42%;
+}
+
+.jujutsu{
+    margin-left: 40%;
+}
+
+.hunter{
+    margin-left: 32%;
+}
+
+.navbar{
+    list-style-type: none;
+    background-color: white;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    
+}
+
+a{
+    text-decoration: none;
+    color: black;
+    font-size: 30px;
+    margin: 10px;
+    padding: 15px;
+}
+
+.navbar :hover{
+    background-color: gray;
+}

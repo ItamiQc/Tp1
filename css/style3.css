@@ -1,0 +1,90 @@
+body{
+    background-image: url(../images/bg2.avif);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100%;
+    margin: 0;
+}
+.liststyle{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+h1, h2, h3, h4{
+    font-size: 60px;
+    text-align: center;
+    color: black;
+}
+
+ol{
+    padding: 10px;
+    list-style-position: inside;
+    border: solid 3px black;
+    width: 800px;
+    height: fit-content;
+    background-color: deepskyblue;
+}
+
+li{
+    font-size: 30px;
+    border: solid 3px black;
+    background-color: ghostwhite;
+}
+
+.list{
+    margin-bottom: 50px;
+}
+
+.images img{
+    width: 400px;
+    height: 600px;
+    margin: 20px;
+}
+
+.textimage{
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    font-size: 20px;
+    margin-bottom: 100px;
+}
+
+.rwby{
+    margin-left: 65%;
+}
+
+.tomo{
+    margin-left: 57%;
+}
+
+.galaxy{
+    margin-left: 50%;
+}
+
+.nagatoro{
+    margin-left: 27%;
+}
+
+.navbar{
+    list-style-type: none;
+    background-color: white;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    
+}
+
+a{
+    text-decoration: none;
+    color: black;
+    font-size: 30px;
+    margin: 10px;
+    padding: 15px;
+}
+
+.navbar :hover{
+    background-color: gray;
+}

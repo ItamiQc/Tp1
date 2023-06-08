@@ -1,0 +1,66 @@
+body{
+    background-image: url(../images/animebg.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin: 0;
+   }
+   
+   h1{
+       text-align: center;
+       font-size: 60px;
+   }
+   
+   p{
+   text-align: center;
+   font-size: 40px;
+   }
+   
+   .transparent{
+      background: rgba(255,255,255,.7);
+       margin-left: 25%;
+       margin-right: 25%;
+       margin-bottom: 70px;
+       margin-top: 5%;
+       border: 1px solid #fff;
+   }
+   
+   .boutons button{
+       padding: 30px 30px;
+      width: 50%;
+      margin-left: 25%;
+      font-size: 30px;
+      background-color: lavender;
+   }
+   .boutons button:hover{
+       background-color: rgb(170, 95, 255);
+   }
+   
+   a{
+    text-decoration: none;
+   }
+
+   ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    background-color: white;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+ }
+
+
+ li, a{
+  color: black;
+  display: block;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 30px;
+ }
+
+li :hover{
+    background-color: gray;
+}

@@ -1,0 +1,139 @@
+body{
+    animation: bgcolor 10s infinite;
+    margin: 0;
+}
+
+    @keyframes bgcolor {
+        0% {
+            background-color: 	#778899;
+        }
+
+        25%{
+            background-color: 	#b0c4de;
+        }
+
+        50%{
+            background-color: #87cefa;
+        }
+
+        75%{
+            background-color: #b0c4de;
+        }
+
+        100%{
+            background-color: #778899;
+        }
+    }
+    
+
+
+h1{
+    text-align: center;
+    font-size: 60px;
+}
+
+table, th, td{
+    font-size: 30px;
+    border: 3px solid black;
+    border-collapse: collapse;
+    background-color: white;
+    padding: 10px;
+    
+}
+
+th{
+    background-color: aliceblue;
+}
+
+table{
+    margin-left: 20px;
+    margin-top: 20px;
+    float: left;
+}
+
+img{
+    max-height: 500px;
+    margin: 20px;
+}
+
+.paragraphs{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    font-size: 25px  ;
+    margin-left: 40%;
+}
+
+h2{
+    text-align: center;
+    font-size: 60px;
+}
+
+.photos{
+  margin-left: 50%;
+}
+
+.paragraphs2{
+    display: grid;
+    grid-template-columns: auto auto;
+    font-size: 30px  ;
+    margin-left: 55%;
+}
+
+h3{
+    text-align: center;
+    font-size: 60px;
+}
+
+.photos2{
+    margin-left: 30%;
+}
+
+.paragraphs3{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    font-size: 30px  ;
+    margin-left: 36%;
+}
+
+h4{
+    text-align: center;
+    font-size: 60px;
+}
+
+.photos3{
+    margin-left: 55%;
+}
+
+.paragraphs4{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    font-size: 20px  ;
+    margin-left: 57%;
+    margin-bottom: 60px;
+}
+
+ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    background-color: white;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+ }
+
+
+ li, a{
+  color: black;
+  display: block;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 30px;
+ }
+
+li :hover{
+    background-color: gray;
+}
